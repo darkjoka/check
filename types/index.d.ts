@@ -8,8 +8,13 @@ export type SiteConfig = {
   };
 };
 
-export type NavItem = {
+export type NavigationItem = {
   title: string;
   href: string;
   disabled?: boolean;
 };
+
+
+export type NavigationConfig {
+    mainNavigation: NavigationItem[]
+}

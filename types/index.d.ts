@@ -14,7 +14,6 @@ export type NavigationItem = {
   disabled?: boolean;
 };
 
-
-export type NavigationConfig {
-    mainNavigation: NavigationItem[]
-}
+export type NavigationConfig = {
+  mainNavigation: NavigationItem[];
+};

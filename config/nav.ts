@@ -14,5 +14,9 @@ export const navigationConfig: NavigationConfig = {
       title: "SDE Sheet",
       href: "/sheet",
     },
+    {
+      title: "Dashboard",
+      href: "/dashboard",
+    },
   ],
 };

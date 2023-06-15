@@ -1,8 +1,19 @@
 import "./globals.css"
 
 import { Inter } from "next/font/google"
+import localFont from "next/font/local"
 
-const inter = Inter({ subsets: ["latin"] })
+import { cn } from "@/lib/utils"
+
+const fontSans = Inter({
+  subsets: ["latin"],
+  variable: "--font-sans",
+})
+
+const fontHeading = localFont({
+  src: "../assets/fonts/CalSans-SemiBold.woff2",
+  variable: "--font-heading",
+})
 
 export const metadata = {
   title: "Create Next App",
@@ -18,7 +29,11 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head />
       <body
-        className={`${inter.className} min-h-screen bg-background font-sans antialiased`}
+        className={cn(
+          "min-h-screen bg-background font-sans antialiased",
+          fontSans.variable,
+          fontHeading.variable
+        )}
       >
         {children}
       </body>

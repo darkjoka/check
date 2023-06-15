@@ -1,4 +1,4 @@
-import { SiteConfig } from "@/types";
+import { SiteConfig } from "@/types"
 
 export const siteConfig: SiteConfig = {
   name: "Unknown",
@@ -8,4 +8,4 @@ export const siteConfig: SiteConfig = {
   links: {
     github: "github.com/here",
   },
-};
+}

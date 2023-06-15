@@ -1,4 +1,4 @@
-import { NavigationConfig } from "@/types";
+import { NavigationConfig } from "@/types"
 
 export const navigationConfig: NavigationConfig = {
   mainNavigation: [
@@ -19,4 +19,4 @@ export const navigationConfig: NavigationConfig = {
       href: "/dashboard",
     },
   ],
-};
+}

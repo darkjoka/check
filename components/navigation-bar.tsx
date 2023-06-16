@@ -3,7 +3,6 @@
 import Link from "next/link"
 import { useSelectedLayoutSegment } from "next/navigation"
 import { NavigationItem } from "@/types"
-import { AlertDialogTrigger } from "@radix-ui/react-alert-dialog"
 
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
@@ -32,7 +31,7 @@ export function NavigationBar({ items }: NavigationProps) {
               href={item.disabled ? "#" : item.href}
               className={cn(
                 "flex items-center text-lg font-medium transition-colors hover:text-foreground/80 sm:text-sm",
-                item.href.startsWith(`/${segment}`)
+                segment?.includes(item.href.substring(1))
                   ? "text-foreground"
                   : "text-foreground/60",
                 item.disabled && "cursor-not-allowed opacity-80"

@@ -1,28 +1,19 @@
 "use client"
 
 import Link from "next/link"
-import { useSelectedLayoutSegment } from "next/navigation"
+import { useSelectedLayoutSegments } from "next/navigation"
 import { NavigationItem } from "@/types"
 
-import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
-import { Icons } from "@/components/icons"
 
 interface NavigationProps {
   items: NavigationItem[]
 }
 
-export function NavigationBar({ items }: NavigationProps) {
-  const segment = useSelectedLayoutSegment()
+export function NeetNavigation({ items }: NavigationProps) {
+  const segment = useSelectedLayoutSegments()
   return (
     <div className="flex gap-6 md:gap-10">
-      <Link href="/" className="hidden items-center space-x-2 md:flex">
-        <Icons.logo />
-        <span className="hidden font-bold sm:inline-block">
-          {siteConfig.name}
-        </span>
-      </Link>
-
       {items?.length ? (
         <nav className="gap-6 md:flex">
           {items.map((item, index) => (
@@ -31,7 +22,7 @@ export function NavigationBar({ items }: NavigationProps) {
               href={item.disabled ? "#" : item.href}
               className={cn(
                 "flex items-center text-lg font-medium transition-colors hover:text-foreground/80 sm:text-sm",
-                segment?.includes(item.href.substring(1))
+                item.href === `/${segment.join("/")}`
                   ? "text-foreground"
                   : "text-foreground/60",
                 item.disabled && "cursor-not-allowed opacity-80"

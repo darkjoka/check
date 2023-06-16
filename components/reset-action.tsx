@@ -1,5 +1,6 @@
 "use client"
 
+import { useMounted } from "@/hooks/use-mounted"
 import {
   AlertDialog,
   AlertDialogAction,
@@ -14,7 +15,8 @@ import {
 import { Button } from "@/components/ui/button"
 
 export function ResetAction() {
-  return (
+  const mounted = useMounted()
+  return mounted ? (
     <AlertDialog>
       <AlertDialogTrigger>
         <Button variant={"secondary"}>Reset</Button>
@@ -33,5 +35,5 @@ export function ResetAction() {
         </AlertDialogFooter>
       </AlertDialogContent>
     </AlertDialog>
-  )
+  ) : null
 }

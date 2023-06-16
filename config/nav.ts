@@ -3,6 +3,10 @@ import { NavigationConfig } from "@/types"
 export const navigationConfig: NavigationConfig = {
   mainNavigation: [
     {
+      title: "Dashboard",
+      href: "/dashboard",
+    },
+    {
       title: "Blind",
       href: "/blind",
     },
@@ -11,12 +15,8 @@ export const navigationConfig: NavigationConfig = {
       href: "/neet",
     },
     {
-      title: "SDE Sheet",
+      title: "Sheet",
       href: "/sheet",
-    },
-    {
-      title: "Dashboard",
-      href: "/dashboard",
     },
   ],
 }

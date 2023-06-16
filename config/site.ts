@@ -1,7 +1,7 @@
 import { SiteConfig } from "@/types"
 
 export const siteConfig: SiteConfig = {
-  name: "Check",
+  name: "Checkmate",
   description: "Something should be here",
   url: "url goes here",
   ogImage: "some image",

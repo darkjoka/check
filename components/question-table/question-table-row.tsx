@@ -22,7 +22,7 @@ export function QuestionTableRow({
       })}
       <td className="">
         {/* Todo:update with functions */}
-        <DifficultyButton state="easy" updateState={(x) => null} />
+        <DifficultyButton state="" updateState={(x) => null} />
       </td>
       <td>
         <button>

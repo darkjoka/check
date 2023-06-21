@@ -16,6 +16,7 @@ import {
   ScrollAreaScrollBar,
   ScrollAreaViewport,
 } from "@/components/ui/scroll-area"
+import { DifficultyButton } from "@/components/difficulty-button"
 import {
   convertToJsonx,
   QuestionTable,
@@ -24,6 +25,7 @@ import {
   QuestionTableHeading,
   QuestionTableRow,
 } from "@/components/question-table"
+import { RatingAction } from "@/components/rating-action"
 
 export function ProblemList({ category }: { category: string }) {
   const problems = mapProblemsToCategory(getProblemViaCategory(category))
@@ -46,7 +48,14 @@ export function ProblemList({ category }: { category: string }) {
                         key={key}
                         heading={head}
                         data={convertToJsonx(data as unknown as Data)}
-                      />
+                      >
+                        <td>
+                          <DifficultyButton signature={data.src} />
+                        </td>
+                        <td>
+                          <RatingAction rating="" signature={data.src} />
+                        </td>
+                      </QuestionTableRow>
                     ))}
                   </QuestionTableBody>
                 </QuestionTable>

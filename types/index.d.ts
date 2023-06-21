@@ -17,3 +17,11 @@ export type NavigationItem = {
 export type NavigationConfig = {
   mainNavigation: NavigationItem[]
 }
+
+export type Data = {
+  title: string
+  src: string
+  difficulty: "easy" | "medium" | "hard"
+  type: string[]
+  category: string
+}

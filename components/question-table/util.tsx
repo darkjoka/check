@@ -1,15 +1,9 @@
 "use client"
 
+import { type Data } from "@/types"
+
 import { DifficultyIndicator } from "@/components/question-table/difficulty-indicator"
 import { QuestionLink } from "@/components/question-table/question-link"
-
-export type Data = {
-  title: string
-  src: string
-  difficulty: "easy" | "medium" | "hard"
-  type: string[]
-  category: string
-}
 
 // convert data from json to jsx format
 export function convertToJsonx(data: Data) {

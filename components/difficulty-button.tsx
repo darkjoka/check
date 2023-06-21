@@ -6,17 +6,13 @@ import { cn } from "@/lib/utils"
 
 export type States = "easy" | "medium" | "hard" | ""
 
-export interface DifficultyButtonProps<T> {
-  state: T
-  updateState: (x: T) => void
+export interface DifficultyButtonProps {
+  signature: string
 }
 
-export function DifficultyButton({
-  state,
-  updateState,
-}: DifficultyButtonProps<States>) {
+export function DifficultyButton({ signature }: DifficultyButtonProps) {
   const handleClick = (event: MouseEvent<HTMLButtonElement>) => {
-    updateState((event.target as any).value as States)
+    // updateState(signature, (event.target as any).value as States)
   }
   const [hoverState, setHoverState] = useState<States>("")
 
@@ -25,6 +21,9 @@ export function DifficultyButton({
   }
 
   const handleUnHover = () => setHoverState("")
+
+  // TODO: external state plugin
+  const state = ""
 
   return (
     <div className="flex space-x-2">

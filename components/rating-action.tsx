@@ -20,8 +20,9 @@ import {
 
 interface RatingActionProps {
 	rating: "" | "easy" | "medium" | "hard"
+	signature: string
 }
-export function RatingAction({ rating }: RatingActionProps) {
+export function RatingAction({ rating, signature }: RatingActionProps) {
 	return (
 		<DropdownMenu>
 			<DropdownMenuTrigger>

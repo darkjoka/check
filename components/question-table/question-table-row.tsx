@@ -14,7 +14,7 @@ export function QuestionTableRow({
   data: Jsonx
 }) {
   return (
-    <tr className="h-14 border-t border-t-border hover:bg-foreground/5">
+    <tr className="h-14 border-t border-t-border hover:bg-accent">
       {heading.map((head, key) => {
         return head.accessor !== "" ? (
           <td {...{ key }}>{data[head.accessor]}</td>

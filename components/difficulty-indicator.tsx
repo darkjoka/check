@@ -1,9 +1,11 @@
 "use client"
 
+import { DifficultyNoEmpty } from "@/types"
+
 import { cn } from "@/lib/utils"
 
 interface DifficultyIndicatorProps {
-  difficulty: "easy" | "medium" | "hard"
+  difficulty: DifficultyNoEmpty
 }
 
 export function DifficultyIndicator({ difficulty }: DifficultyIndicatorProps) {

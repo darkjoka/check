@@ -1,10 +1,9 @@
 "use client"
 
 import { MouseEvent, useState } from "react"
+import { Difficulty } from "@/types"
 
 import { cn } from "@/lib/utils"
-
-export type States = "easy" | "medium" | "hard" | ""
 
 export interface DifficultyButtonProps {
   signature: string
@@ -14,10 +13,10 @@ export function DifficultyButton({ signature }: DifficultyButtonProps) {
   const handleClick = (event: MouseEvent<HTMLButtonElement>) => {
     // updateState(signature, (event.target as any).value as States)
   }
-  const [hoverState, setHoverState] = useState<States>("")
+  const [hoverState, setHoverState] = useState<Difficulty>("")
 
   const handleHover = (event: MouseEvent<HTMLButtonElement>) => {
-    setHoverState((event.target as any).value as States)
+    setHoverState((event.target as any).value as Difficulty)
   }
 
   const handleUnHover = () => setHoverState("")

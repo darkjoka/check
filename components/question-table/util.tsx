@@ -2,7 +2,7 @@
 
 import { type Data } from "@/types"
 
-import { DifficultyIndicator } from "@/components/question-table/difficulty-indicator"
+import { DifficultyIndicator } from "@/components/difficulty-indicator"
 import { QuestionLink } from "@/components/question-table/question-link"
 
 // convert data from json to jsx format

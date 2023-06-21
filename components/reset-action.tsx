@@ -18,7 +18,7 @@ export function ResetAction() {
   const mounted = useMounted()
   return mounted ? (
     <AlertDialog>
-      <AlertDialogTrigger>
+      <AlertDialogTrigger asChild>
         <Button variant={"secondary"}>Reset</Button>
       </AlertDialogTrigger>
       <AlertDialogContent>

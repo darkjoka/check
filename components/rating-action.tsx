@@ -1,5 +1,6 @@
 "use client"
 
+import { Difficulty } from "@/types"
 import {
 	Check,
 	MoreHorizontal,
@@ -19,9 +20,10 @@ import {
 } from "@/components/ui/dropdown-menu"
 
 interface RatingActionProps {
-	rating: "" | "easy" | "medium" | "hard"
+	rating: Difficulty
 	signature: string
 }
+
 export function RatingAction({ rating, signature }: RatingActionProps) {
 	return (
 		<DropdownMenu>

@@ -18,10 +18,13 @@ export type NavigationConfig = {
   mainNavigation: NavigationItem[]
 }
 
+export type Difficulty = "easy" | "medium" | "hard" | ""
+export type DifficultyNoEmpty = "easy" | "medium" | "hard"
+
 export type Data = {
   title: string
   src: string
-  difficulty: "easy" | "medium" | "hard"
+  difficulty: DifficultyNoEmpty
   type: string[]
   category: string
 }

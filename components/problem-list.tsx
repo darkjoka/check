@@ -1,6 +1,5 @@
 "use client"
 
-import { useState } from "react"
 import { type Data } from "@/types"
 
 import { head } from "@/config/table"
@@ -28,7 +27,9 @@ import {
 import { RatingAction } from "@/components/rating-action"
 
 export function ProblemList({ category }: { category: string }) {
-  const problems = mapProblemsToCategory(getProblemViaCategory(category))
+  const problems = mapProblemsToCategory(
+    getProblemViaCategory(category) as Data[]
+  )
 
   return (
     <Accordion collapsible type="single">
@@ -47,13 +48,13 @@ export function ProblemList({ category }: { category: string }) {
                       <QuestionTableRow
                         key={key}
                         heading={head}
-                        data={convertToJsonx(data as unknown as Data)}
+                        data={convertToJsonx(data)}
                       >
                         <td>
-                          <DifficultyButton signature={data.src} />
+                          <DifficultyButton {...{ data }} />
                         </td>
                         <td>
-                          <RatingAction rating="" signature={data.src} />
+                          <RatingAction {...{ data }} />
                         </td>
                       </QuestionTableRow>
                     ))}

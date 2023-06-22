@@ -1,1 +1,1 @@
-export { useRatingStore } from "@/store/rating"
+export { useRatingStore, type RatingStore } from "@/store/rating"

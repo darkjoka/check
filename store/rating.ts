@@ -17,6 +17,8 @@ type RatingAction = {
 	resetAll: VoidFunction
 }
 
+export type RatingStore = RatingState & RatingAction
+
 const storage = {
 	getItem: (name: string) => {
 		console.log(name, "has been retrieved")

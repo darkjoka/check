@@ -1,6 +1,7 @@
 "use client"
 
-import { Difficulty } from "@/types"
+import { RatingStore, useRatingStore } from "@/store"
+import { Difficulty, DifficultyNoEmpty } from "@/types"
 import {
 	Check,
 	MoreHorizontal,
@@ -12,6 +13,7 @@ import {
 
 import {
 	DropdownMenu,
+	DropdownMenuCheckboxItem,
 	DropdownMenuContent,
 	DropdownMenuItem,
 	DropdownMenuPortal,
@@ -23,8 +25,21 @@ interface RatingActionProps {
 	rating: Difficulty
 	signature: string
 }
+const diffultySelector = (state: RatingStore) => state.ratings
+const rateSelector = (state: RatingStore) => state.rate
+const resetSelector = (state: RatingStore) => state.reset
 
 export function RatingAction({ rating, signature }: RatingActionProps) {
+	const { difficulty } = useRatingStore(diffultySelector).get(signature) ?? {
+		difficulty: "",
+	}
+	const rate = useRatingStore(rateSelector)
+	const reset = useRatingStore(resetSelector)
+
+	const handleChange = (value: boolean, difficulty: DifficultyNoEmpty) => {
+		value && rate(signature, difficulty)
+	}
+
 	return (
 		<DropdownMenu>
 			<DropdownMenuTrigger>
@@ -32,29 +47,28 @@ export function RatingAction({ rating, signature }: RatingActionProps) {
 			</DropdownMenuTrigger>
 			<DropdownMenuPortal>
 				<DropdownMenuContent className="w-44">
-					<DropdownMenuItem className="space-x-3">
-						<div className="w-4" />
-						<span>Reset Rating</span>
+					<DropdownMenuItem onClick={() => reset(signature)}>
+						<span className="pl-6">Reset Rating</span>
 					</DropdownMenuItem>
 					<DropdownMenuSeparator />
-					<DropdownMenuItem className="space-x-3">
-						<div className="w-4">
-							{rating == "easy" && <Check className="w-4" />}
-						</div>
+					<DropdownMenuCheckboxItem
+						checked={difficulty === "easy"}
+						onCheckedChange={(value) => handleChange(value, "easy")}
+					>
 						<span>Easy</span>
-					</DropdownMenuItem>
-					<DropdownMenuItem className="space-x-3">
-						<div className="w-4">
-							{rating == "medium" && <Check className="w-4" />}
-						</div>
+					</DropdownMenuCheckboxItem>
+					<DropdownMenuCheckboxItem
+						checked={difficulty === "medium"}
+						onCheckedChange={(value) => handleChange(value, "medium")}
+					>
 						<span>Medium</span>
-					</DropdownMenuItem>
-					<DropdownMenuItem className="space-x-3">
-						<div className="w-4">
-							{rating == "hard" && <Check className="w-4" />}
-						</div>
+					</DropdownMenuCheckboxItem>
+					<DropdownMenuCheckboxItem
+						checked={difficulty === "hard"}
+						onCheckedChange={(value) => handleChange(value, "hard")}
+					>
 						<span>Hard</span>
-					</DropdownMenuItem>
+					</DropdownMenuCheckboxItem>
 				</DropdownMenuContent>
 			</DropdownMenuPortal>
 		</DropdownMenu>

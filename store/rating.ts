@@ -1,6 +1,6 @@
-import { Data, Difficulty } from "@/types"
+import { Difficulty } from "@/types"
 import { create } from "zustand"
-import { createJSONStorage, persist, StateStorage } from "zustand/middleware"
+import { persist } from "zustand/middleware"
 
 type RatingData = {
 	difficulty: Difficulty
@@ -21,7 +21,6 @@ export type RatingStore = RatingState & RatingAction
 
 const storage = {
 	getItem: (name: string) => {
-		console.log(name, "has been retrieved")
 		const str = localStorage.getItem(name) ?? ""
 		return {
 			state: {
@@ -32,7 +31,6 @@ const storage = {
 	},
 
 	setItem: (name: string, value: { state: RatingState }) => {
-		console.log(name, "has been set with", value)
 		const str = JSON.stringify({
 			state: {
 				...value.state,
@@ -43,7 +41,6 @@ const storage = {
 	},
 
 	removeItem: (name: string) => {
-		console.log(name, "has been deleted")
 		localStorage.removeItem(name)
 	},
 }

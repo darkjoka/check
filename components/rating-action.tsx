@@ -1,16 +1,9 @@
 "use client"
 
-import { RatingStore, useRatingStore } from "@/store"
-import { Difficulty, DifficultyNoEmpty } from "@/types"
-import {
-	Check,
-	MoreHorizontal,
-	PackageMinus,
-	PackagePlus,
-	PackageX,
-	RotateCcw,
-} from "lucide-react"
+import { Data, DifficultyNoEmpty } from "@/types"
+import { MoreHorizontal } from "lucide-react"
 
+import { useProblems } from "@/hooks/use-problems"
 import {
 	DropdownMenu,
 	DropdownMenuCheckboxItem,
@@ -22,22 +15,14 @@ import {
 } from "@/components/ui/dropdown-menu"
 
 interface RatingActionProps {
-	rating: Difficulty
-	signature: string
+	data: Data
 }
-const diffultySelector = (state: RatingStore) => state.ratings
-const rateSelector = (state: RatingStore) => state.rate
-const resetSelector = (state: RatingStore) => state.reset
 
-export function RatingAction({ rating, signature }: RatingActionProps) {
-	const { difficulty } = useRatingStore(diffultySelector).get(signature) ?? {
-		difficulty: "",
-	}
-	const rate = useRatingStore(rateSelector)
-	const reset = useRatingStore(resetSelector)
+export function RatingAction({ data }: RatingActionProps) {
+	const { rate, reset, difficulty } = useProblems(data)
 
 	const handleChange = (value: boolean, difficulty: DifficultyNoEmpty) => {
-		value && rate(signature, difficulty)
+		value && rate(difficulty)
 	}
 
 	return (
@@ -47,7 +32,7 @@ export function RatingAction({ rating, signature }: RatingActionProps) {
 			</DropdownMenuTrigger>
 			<DropdownMenuPortal>
 				<DropdownMenuContent className="w-44">
-					<DropdownMenuItem onClick={() => reset(signature)}>
+					<DropdownMenuItem onClick={reset}>
 						<span className="pl-6">Reset Rating</span>
 					</DropdownMenuItem>
 					<DropdownMenuSeparator />

@@ -1,24 +1,22 @@
 "use client"
 
 import { MouseEvent, useState } from "react"
-import { useRatingStore } from "@/store"
-import { Difficulty } from "@/types"
+import { Data, Difficulty, DifficultyNoEmpty } from "@/types"
 
 import { cn } from "@/lib/utils"
+import { useProblems } from "@/hooks/use-problems"
 
 export interface DifficultyButtonProps {
-  signature: string
+  data: Data
 }
 
-export function DifficultyButton({ signature }: DifficultyButtonProps) {
-  const { difficulty } = useRatingStore((store) => store.ratings).get(
-    signature
-  ) ?? { difficulty: "" }
-  const rate = useRatingStore((store) => store.rate)
+export function DifficultyButton({ data }: DifficultyButtonProps) {
+  const { rate, difficulty } = useProblems(data)
 
   const handleClick = (event: MouseEvent<HTMLButtonElement>) => {
-    rate(signature, (event.target as any).value as Difficulty)
+    rate((event.target as any).value as DifficultyNoEmpty)
   }
+
   const [hoverState, setHoverState] = useState<Difficulty>("")
   const handleHover = (event: MouseEvent<HTMLButtonElement>) => {
     setHoverState((event.target as any).value as Difficulty)

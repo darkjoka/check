@@ -8,7 +8,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Array"
     },
@@ -47,7 +48,8 @@
       "src": "https://leetcode.com/problems/is-subsequence",
       "difficulty": "easy",
       "type": [
-        "neet all"
+        "neet all",
+        "sean"
       ],
       "category": "Array"
     },
@@ -68,7 +70,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Array"
     },
@@ -145,7 +148,8 @@
       "difficulty": "easy",
       "type": [
         "neet all",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Array"
     },
@@ -172,7 +176,8 @@
       "src": "https://leetcode.com/problems/range-sum-query-immutable",
       "difficulty": "easy",
       "type": [
-        "neet all"
+        "neet all",
+        "sean"
       ],
       "category": "Array"
     },
@@ -237,7 +242,8 @@
       "type": [
         "neet all",
         "neet",
-        "blind"
+        "blind",
+        "sean"
       ],
       "category": "Array"
     },
@@ -249,7 +255,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Array"
     },
@@ -284,7 +291,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Array"
     },
@@ -294,7 +302,8 @@
       "difficulty": "medium",
       "type": [
         "neet all",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Array"
     },
@@ -487,7 +496,8 @@
       "difficulty": "hard",
       "type": [
         "neet all",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Array"
     },
@@ -617,7 +627,8 @@
       "difficulty": "easy",
       "type": [
         "neet all",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Two Pointers"
     },
@@ -657,7 +668,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Two Pointers"
     },
@@ -678,7 +690,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Two Pointers"
     },
@@ -726,7 +739,8 @@
       "type": [
         "neet all",
         "neet",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Two Pointers"
     },
@@ -767,7 +781,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Sliding Window"
     },
@@ -779,7 +794,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Sliding Window"
     },
@@ -834,7 +850,8 @@
       "src": "https://leetcode.com/problems/minimum-size-subarray-sum",
       "difficulty": "medium",
       "type": [
-        "neet all"
+        "neet all",
+        "sean"
       ],
       "category": "Sliding Window"
     },
@@ -844,7 +861,8 @@
       "difficulty": "medium",
       "type": [
         "neet all",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Sliding Window"
     },
@@ -856,7 +874,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Sliding Window"
     },
@@ -867,7 +886,8 @@
       "type": [
         "neet all",
         "neet",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Sliding Window"
     },
@@ -948,7 +968,8 @@
       "type": [
         "neet all",
         "neet",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Stack"
     },
@@ -1044,7 +1065,8 @@
       "difficulty": "hard",
       "type": [
         "neet all",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Stack"
     },
@@ -1065,7 +1087,8 @@
       "type": [
         "neet all",
         "neet",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Binary Search"
     },
@@ -1102,7 +1125,8 @@
       "difficulty": "easy",
       "type": [
         "neet all",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Binary Search"
     },
@@ -1147,7 +1171,8 @@
       "src": "https://leetcode.com/problems/find-peak-element",
       "difficulty": "medium",
       "type": [
-        "neet all"
+        "neet all",
+        "sean"
       ],
       "category": "Binary Search"
     },
@@ -1167,7 +1192,8 @@
       "type": [
         "neet all",
         "neet",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Binary Search"
     },
@@ -1265,7 +1291,8 @@
       "type": [
         "neet all",
         "neet",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Binary Search"
     },
@@ -1277,7 +1304,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Linked List"
     },
@@ -1289,7 +1317,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Linked List"
     },
@@ -1299,7 +1328,8 @@
       "difficulty": "easy",
       "type": [
         "neet all",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Linked List"
     },
@@ -1308,7 +1338,8 @@
       "src": "https://leetcode.com/problems/remove-linked-list-elements",
       "difficulty": "easy",
       "type": [
-        "neet all"
+        "neet all",
+        "sean"
       ],
       "category": "Linked List"
     },
@@ -1327,7 +1358,8 @@
       "difficulty": "easy",
       "type": [
         "neet all",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Linked List"
     },
@@ -1348,7 +1380,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Linked List"
     },
@@ -1369,7 +1402,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Linked List"
     },
@@ -1426,7 +1460,8 @@
       "type": [
         "neet all",
         "neet",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Linked List"
     },
@@ -1438,7 +1473,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Linked List"
     },
@@ -1467,7 +1503,8 @@
       "difficulty": "medium",
       "type": [
         "neet all",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Linked List"
     },
@@ -1486,7 +1523,8 @@
       "difficulty": "medium",
       "type": [
         "neet all",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Linked List"
     },
@@ -1495,7 +1533,8 @@
       "src": "https://leetcode.com/problems/reverse-linked-list-ii",
       "difficulty": "medium",
       "type": [
-        "neet all"
+        "neet all",
+        "sean"
       ],
       "category": "Linked List"
     },
@@ -1584,7 +1623,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -1596,7 +1636,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -1607,7 +1648,8 @@
       "type": [
         "neet all",
         "neet",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -1630,7 +1672,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -1642,7 +1685,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -1661,7 +1705,8 @@
       "src": "https://leetcode.com/problems/merge-two-binary-trees",
       "difficulty": "easy",
       "type": [
-        "neet all"
+        "neet all",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -1670,7 +1715,8 @@
       "src": "https://leetcode.com/problems/path-sum",
       "difficulty": "easy",
       "type": [
-        "neet all"
+        "neet all",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -1691,7 +1737,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -1721,7 +1768,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -1732,7 +1780,8 @@
       "type": [
         "neet all",
         "neet",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -1770,7 +1819,8 @@
       "difficulty": "medium",
       "type": [
         "neet all",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -1816,7 +1866,8 @@
       "difficulty": "medium",
       "type": [
         "neet all",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -1847,7 +1898,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -1971,7 +2023,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -2016,7 +2069,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Trie"
     },
@@ -2047,7 +2101,8 @@
       "type": [
         "neet all",
         "neet",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Heap"
     },
@@ -2068,7 +2123,8 @@
       "type": [
         "neet all",
         "neet",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Heap"
     },
@@ -2141,7 +2197,8 @@
       "src": "https://leetcode.com/problems/reorganize-string",
       "difficulty": "medium",
       "type": [
-        "neet all"
+        "neet all",
+        "sean"
       ],
       "category": "Heap"
     },
@@ -2199,7 +2256,8 @@
       "type": [
         "neet all",
         "neet",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Backtracking"
     },
@@ -2211,7 +2269,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Backtracking"
     },
@@ -2220,7 +2279,8 @@
       "src": "https://leetcode.com/problems/combinations",
       "difficulty": "medium",
       "type": [
-        "neet all"
+        "neet all",
+        "sean"
       ],
       "category": "Backtracking"
     },
@@ -2231,7 +2291,8 @@
       "type": [
         "neet all",
         "neet",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Backtracking"
     },
@@ -2241,7 +2302,8 @@
       "difficulty": "medium",
       "type": [
         "neet all",
-        "neet"
+        "neet",
+        "sean"
       ],
       "category": "Backtracking"
     },
@@ -2251,7 +2313,8 @@
       "difficulty": "medium",
       "type": [
         "neet all",
-        "neet"
+        "neet",
+        "sean"
       ],
       "category": "Backtracking"
     },
@@ -2260,7 +2323,8 @@
       "src": "https://leetcode.com/problems/permutations-ii",
       "difficulty": "medium",
       "type": [
-        "neet all"
+        "neet all",
+        "sean"
       ],
       "category": "Backtracking"
     },
@@ -2272,7 +2336,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Backtracking"
     },
@@ -2282,7 +2347,8 @@
       "difficulty": "medium",
       "type": [
         "neet all",
-        "neet"
+        "neet",
+        "sean"
       ],
       "category": "Backtracking"
     },
@@ -2302,7 +2368,8 @@
       "type": [
         "neet all",
         "neet",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Backtracking"
     },
@@ -2347,7 +2414,8 @@
       "src": "https://leetcode.com/problems/partition-to-k-equal-sum-subsets",
       "difficulty": "medium",
       "type": [
-        "neet all"
+        "neet all",
+        "sean"
       ],
       "category": "Backtracking"
     },
@@ -2377,7 +2445,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Verifying An Alien Dictionary",
@@ -2386,7 +2454,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Number of Islands",
@@ -2396,9 +2464,10 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Clone Graph",
@@ -2408,9 +2477,10 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Max Area of Island",
@@ -2420,7 +2490,7 @@
         "neet all",
         "neet"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Count Sub Islands",
@@ -2429,7 +2499,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Pacific Atlantic Water Flow",
@@ -2439,9 +2509,10 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Surrounded Regions",
@@ -2451,7 +2522,7 @@
         "neet all",
         "neet"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Reorder Routes to Make All Paths Lead to The City Zero",
@@ -2460,7 +2531,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Rotting Oranges",
@@ -2471,7 +2542,7 @@
         "neet",
         "grind"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Walls And Gates",
@@ -2481,7 +2552,7 @@
         "neet all",
         "neet"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Snakes And Ladders",
@@ -2490,7 +2561,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Open The Lock",
@@ -2499,7 +2570,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Find Eventual Safe States",
@@ -2508,7 +2579,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Course Schedule",
@@ -2518,9 +2589,10 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Course Schedule II",
@@ -2529,9 +2601,10 @@
       "type": [
         "neet all",
         "neet",
-        "grind"
+        "grind",
+        "sean"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Course Schedule IV",
@@ -2540,7 +2613,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Check if Move Is Legal",
@@ -2549,7 +2622,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Shortest Bridge",
@@ -2558,7 +2631,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Shortest Path in Binary Matrix",
@@ -2567,7 +2640,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Redundant Connection",
@@ -2577,7 +2650,7 @@
         "neet all",
         "neet"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Number of Connected Components In An Undirected Graph",
@@ -2588,7 +2661,7 @@
         "neet",
         "blind"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Graph Valid Tree",
@@ -2598,9 +2671,10 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Accounts Merge",
@@ -2610,7 +2684,7 @@
         "neet all",
         "grind"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Find Closest Node to Given Two Nodes",
@@ -2619,7 +2693,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Shortest Path in a Binary Matrix",
@@ -2628,7 +2702,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "As Far from Land as Possible",
@@ -2637,7 +2711,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Shortest Path with Alternating Colors",
@@ -2646,7 +2720,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Minimum Fuel Cost to Report to the Capital",
@@ -2655,7 +2729,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Minimum Score of a Path Between Two Cities",
@@ -2664,7 +2738,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Number of Closed Islands",
@@ -2673,7 +2747,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Number of Enclaves",
@@ -2682,7 +2756,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Minimum Number of Vertices to Reach all Nodes",
@@ -2691,7 +2765,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Is Graph Bipartite?",
@@ -2700,7 +2774,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Evaluate Division",
@@ -2709,7 +2783,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Detonate the Maximum Bombs",
@@ -2718,7 +2792,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Largest Color Value in a Directed Graph",
@@ -2727,7 +2801,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Minimum Number of Days to Eat N Oranges",
@@ -2736,7 +2810,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Word Ladder",
@@ -2747,7 +2821,7 @@
         "neet",
         "grind"
       ],
-      "category": "Graphs"
+      "category": "Graph"
     },
     {
       "title": "Reconstruct Itinerary",
@@ -2757,7 +2831,7 @@
         "neet all",
         "neet"
       ],
-      "category": "Advanced Graphs"
+      "category": "Graph"
     },
     {
       "title": "Min Cost to Connect All Points",
@@ -2767,7 +2841,7 @@
         "neet all",
         "neet"
       ],
-      "category": "Advanced Graphs"
+      "category": "Graph"
     },
     {
       "title": "Network Delay Time",
@@ -2777,7 +2851,7 @@
         "neet all",
         "neet"
       ],
-      "category": "Advanced Graphs"
+      "category": "Graph"
     },
     {
       "title": "Path with Maximum Probability",
@@ -2786,7 +2860,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Advanced Graphs"
+      "category": "Graph"
     },
     {
       "title": "Swim In Rising Water",
@@ -2796,7 +2870,7 @@
         "neet all",
         "neet"
       ],
-      "category": "Advanced Graphs"
+      "category": "Graph"
     },
     {
       "title": "Alien Dictionary",
@@ -2806,9 +2880,10 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
-      "category": "Advanced Graphs"
+      "category": "Graph"
     },
     {
       "title": "Cheapest Flights Within K Stops",
@@ -2819,7 +2894,7 @@
         "neet",
         "grind"
       ],
-      "category": "Advanced Graphs"
+      "category": "Graph"
     },
     {
       "title": "Number of Good Paths",
@@ -2828,7 +2903,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Advanced Graphs"
+      "category": "Graph"
     },
     {
       "title": "Remove Max Number of Edges to Keep Graph Fully Traversable",
@@ -2837,7 +2912,7 @@
       "type": [
         "neet all"
       ],
-      "category": "Advanced Graphs"
+      "category": "Graph"
     },
     {
       "title": "Climbing Stairs",
@@ -2847,7 +2922,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Dynamic Programming"
     },
@@ -2869,7 +2945,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Dynamic Programming"
     },
@@ -2880,7 +2957,8 @@
       "type": [
         "neet all",
         "neet",
-        "blind"
+        "blind",
+        "sean"
       ],
       "category": "Dynamic Programming"
     },
@@ -2892,7 +2970,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Dynamic Programming"
     },
@@ -2903,7 +2982,8 @@
       "type": [
         "neet all",
         "neet",
-        "blind"
+        "blind",
+        "sean"
       ],
       "category": "Dynamic Programming"
     },
@@ -2915,7 +2995,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Dynamic Programming"
     },
@@ -2927,7 +3008,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Dynamic Programming"
     },
@@ -2939,7 +3021,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Dynamic Programming"
     },
@@ -2951,7 +3034,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Dynamic Programming"
     },
@@ -2963,7 +3047,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Dynamic Programming"
     },
@@ -2974,7 +3059,8 @@
       "type": [
         "neet all",
         "neet",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Dynamic Programming"
     },
@@ -3011,7 +3097,8 @@
       "difficulty": "medium",
       "type": [
         "neet all",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Dynamic Programming"
     },
@@ -3056,7 +3143,8 @@
       "src": "https://leetcode.com/problems/number-of-longest-increasing-subsequence",
       "difficulty": "medium",
       "type": [
-        "neet all"
+        "neet all",
+        "sean"
       ],
       "category": "Dynamic Programming"
     },
@@ -3137,7 +3225,8 @@
       "src": "https://leetcode.com/problems/concatenated-words",
       "difficulty": "hard",
       "type": [
-        "neet all"
+        "neet all",
+        "sean"
       ],
       "category": "Dynamic Programming"
     },
@@ -3167,7 +3256,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Dynamic Programming"
     },
@@ -3235,7 +3325,8 @@
       "difficulty": "medium",
       "type": [
         "neet all",
-        "neet"
+        "neet",
+        "sean"
       ],
       "category": "Dynamic Programming"
     },
@@ -3425,7 +3516,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Greedy"
     },
@@ -3455,7 +3547,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Greedy"
     },
@@ -3582,7 +3675,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Intervals"
     },
@@ -3594,7 +3688,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Intervals"
     },
@@ -3617,7 +3712,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Intervals"
     },
@@ -3629,7 +3725,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Intervals"
     },
@@ -3705,7 +3802,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Math"
     },
@@ -3717,7 +3815,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Math"
     },
@@ -3738,7 +3837,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Math"
     },
@@ -3874,7 +3974,8 @@
       "type": [
         "neet all",
         "neet",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Bit Manipulation"
     },
@@ -3898,7 +3999,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Bit Manipulation"
     },
@@ -3922,7 +4024,8 @@
         "neet all",
         "neet",
         "blind",
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Bit Manipulation"
     },
@@ -3981,7 +4084,8 @@
       "src": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
       "difficulty": "easy",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Array"
     },
@@ -4028,14 +4132,15 @@
       "type": [
         "grind"
       ],
-      "category": "String"
+      "category": "Array"
     },
     {
       "title": "Backspace String Compare",
       "src": "https://leetcode.com/problems/backspace-string-compare",
       "difficulty": "easy",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Stack"
     },
@@ -4053,7 +4158,8 @@
       "src": "https://leetcode.com/problems/implement-trie-prefix-tree",
       "difficulty": "medium",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Trie"
     },
@@ -4062,7 +4168,8 @@
       "src": "https://leetcode.com/problems/search-in-rotated-sorted-array",
       "difficulty": "medium",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Binary Search"
     },
@@ -4071,7 +4178,8 @@
       "src": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree",
       "difficulty": "medium",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -4091,14 +4199,15 @@
       "type": [
         "grind"
       ],
-      "category": "String"
+      "category": "Array"
     },
     {
       "title": "Construct Binary Tree from Preorder and Inorder Traversal",
       "src": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal",
       "difficulty": "medium",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -4107,7 +4216,8 @@
       "src": "https://leetcode.com/problems/minimum-height-trees",
       "difficulty": "medium",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Graph"
     },
@@ -4116,7 +4226,8 @@
       "src": "https://leetcode.com/problems/kth-smallest-element-in-a-bst",
       "difficulty": "medium",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -4152,7 +4263,8 @@
       "src": "https://leetcode.com/problems/find-the-duplicate-number",
       "difficulty": "medium",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Bit Manipulation"
     },
@@ -4170,7 +4282,8 @@
       "src": "https://leetcode.com/problems/swap-nodes-in-pairs",
       "difficulty": "medium",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Linked List"
     },
@@ -4179,7 +4292,8 @@
       "src": "https://leetcode.com/problems/path-sum-ii",
       "difficulty": "medium",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -4188,7 +4302,8 @@
       "src": "https://leetcode.com/problems/odd-even-linked-list",
       "difficulty": "medium",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Linked List"
     },
@@ -4215,7 +4330,8 @@
       "src": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph",
       "difficulty": "medium",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Graph"
     },
@@ -4242,7 +4358,8 @@
       "src": "https://leetcode.com/problems/kth-largest-element-in-an-array",
       "difficulty": "medium",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Heap"
     },
@@ -4260,7 +4377,8 @@
       "src": "https://leetcode.com/problems/path-sum-iii",
       "difficulty": "medium",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -4269,7 +4387,8 @@
       "src": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree",
       "difficulty": "medium",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -4278,7 +4397,8 @@
       "src": "https://leetcode.com/problems/3sum-closest",
       "difficulty": "medium",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Array"
     },
@@ -4287,7 +4407,8 @@
       "src": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array",
       "difficulty": "medium",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Binary Search"
     },
@@ -4314,7 +4435,8 @@
       "src": "https://leetcode.com/problems/non-overlapping-intervals",
       "difficulty": "medium",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Array"
     },
@@ -4323,7 +4445,8 @@
       "src": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree",
       "difficulty": "hard",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Tree"
     },
@@ -4332,7 +4455,8 @@
       "src": "https://leetcode.com/problems/find-median-from-data-stream",
       "difficulty": "hard",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Heap"
     },
@@ -4359,7 +4483,8 @@
       "src": "https://leetcode.com/problems/merge-k-sorted-lists",
       "difficulty": "hard",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Heap"
     },
@@ -4404,7 +4529,8 @@
       "src": "https://leetcode.com/problems/employee-free-time",
       "difficulty": "hard",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Array"
     },
@@ -4422,16 +4548,18 @@
       "src": "https://leetcode.com/problems/palindrome-pairs",
       "difficulty": "hard",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
-      "category": "String"
+      "category": "Array"
     },
     {
       "title": "Reverse Nodes in k-Group",
       "src": "https://leetcode.com/problems/reverse-nodes-in-k-group",
       "difficulty": "hard",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Linked List"
     },
@@ -4440,7 +4568,8 @@
       "src": "https://leetcode.com/problems/sudoku-solver",
       "difficulty": "hard",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Matrix"
     },
@@ -4449,7 +4578,8 @@
       "src": "https://leetcode.com/problems/n-queens",
       "difficulty": "hard",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Backtracking"
     },
@@ -4458,9 +4588,415 @@
       "src": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists",
       "difficulty": "hard",
       "type": [
-        "grind"
+        "grind",
+        "sean"
       ],
       "category": "Heap"
+    },
+    {
+      "title": "Find All Numbers Disappeared in an Array",
+      "src": "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array",
+      "difficulty": "easy",
+      "type": [
+        "sean"
+      ],
+      "category": "Array"
+    },
+    {
+      "title": "Remove Duplicates from Sorted List",
+      "src": "https://leetcode.com/problems/remove-duplicates-from-sorted-list",
+      "difficulty": "easy",
+      "type": [
+        "sean"
+      ],
+      "category": "Linked List"
+    },
+    {
+      "title": "Find Smallest Letter Greater Than Target",
+      "src": "https://leetcode.com/problems/find-smallest-letter-greater-than-target",
+      "difficulty": "easy",
+      "type": [
+        "sean"
+      ],
+      "category": "Binary Search"
+    },
+    {
+      "title": "Average of Levels in Binary Tree",
+      "src": "https://leetcode.com/problems/average-of-levels-in-binary-tree",
+      "difficulty": "easy",
+      "type": [
+        "sean"
+      ],
+      "category": "Tree"
+    },
+    {
+      "title": "Minimum Depth of Binary Tree",
+      "src": "https://leetcode.com/problems/minimum-depth-of-binary-tree",
+      "difficulty": "easy",
+      "type": [
+        "sean"
+      ],
+      "category": "Tree"
+    },
+    {
+      "title": "Index Pairs of a String",
+      "src": "https://leetcode.com/problems/index-pairs-of-a-string",
+      "difficulty": "easy",
+      "type": [
+        "sean"
+      ],
+      "category": "Trie"
+    },
+    {
+      "title": "Convert 1D Array Into 2D Array",
+      "src": "https://leetcode.com/problems/convert-1d-array-into-2d-array",
+      "difficulty": "easy",
+      "type": [
+        "sean"
+      ],
+      "category": "Array"
+    },
+    {
+      "title": "Binary Tree Paths",
+      "src": "https://leetcode.com/problems/binary-tree-paths",
+      "difficulty": "easy",
+      "type": [
+        "sean"
+      ],
+      "category": "Tree"
+    },
+    {
+      "title": "Find All Duplicates in an Array",
+      "src": "https://leetcode.com/problems/find-all-duplicates-in-an-array",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Array"
+    },
+    {
+      "title": "Letter Case Permutation",
+      "src": "https://leetcode.com/problems/letter-case-permutation",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Backtracking"
+    },
+    {
+      "title": "Combination Sum III",
+      "src": "https://leetcode.com/problems/combination-sum-iii",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Backtracking"
+    },
+    {
+      "title": "Generalized Abbreviation",
+      "src": "https://leetcode.com/problems/generalized-abbreviation",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Backtracking"
+    },
+    {
+      "title": "Best Time to Buy and Sell Stock with Cooldown",
+      "src": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Dynamic Programming"
+    },
+    {
+      "title": "Linked List Cycle II",
+      "src": "https://leetcode.com/problems/linked-list-cycle-ii",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Linked List"
+    },
+    {
+      "title": "Kth Smallest Element in a Sorted Matrix",
+      "src": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Binary Search"
+    },
+    {
+      "title": "Find K Pairs with Smallest Sums",
+      "src": "https://leetcode.com/problems/find-k-pairs-with-smallest-sums",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Heap"
+    },
+    {
+      "title": "Interval List Intersections",
+      "src": "https://leetcode.com/problems/interval-list-intersections",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Intervals"
+    },
+    {
+      "title": "Minimum Number of Arrows to Burst Balloons",
+      "src": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Greedy"
+    },
+    {
+      "title": "Peak Index in a Mountain Array",
+      "src": "https://leetcode.com/problems/peak-index-in-a-mountain-array",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Binary Search"
+    },
+    {
+      "title": "Search in Rotated Sorted Array II",
+      "src": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Binary Search"
+    },
+    {
+      "title": "Search a 2D Matrix II",
+      "src": "https://leetcode.com/problems/search-a-2d-matrix-ii",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Binary Search"
+    },
+    {
+      "title": "Fruit Into Baskets",
+      "src": "https://leetcode.com/problems/fruit-into-baskets",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Sliding Window"
+    },
+    {
+      "title": "Permutation in String",
+      "src": "https://leetcode.com/problems/permutation-in-string",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Sliding Window"
+    },
+    {
+      "title": "Sort Characters By Frequency",
+      "src": "https://leetcode.com/problems/sort-characters-by-frequency",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Heap"
+    },
+    {
+      "title": "Sequence Reconstruction",
+      "src": "https://leetcode.com/problems/sequence-reconstruction",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Graph"
+    },
+    {
+      "title": "Binary Tree Level Order Traversal II",
+      "src": "https://leetcode.com/problems/binary-tree-level-order-traversal-ii",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Tree"
+    },
+    {
+      "title": "Populating Next Right Pointers in Each Node",
+      "src": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Tree"
+    },
+    {
+      "title": "Populating Next Right Pointers in Each Node II",
+      "src": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Tree"
+    },
+    {
+      "title": "Maximum Binary Tree",
+      "src": "https://leetcode.com/problems/maximum-binary-tree",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Tree"
+    },
+    {
+      "title": "Subarray Product Less Than K",
+      "src": "https://leetcode.com/problems/subarray-product-less-than-k",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Two Pointers"
+    },
+    {
+      "title": "Longest Word in Dictionary",
+      "src": "https://leetcode.com/problems/longest-word-in-dictionary",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Trie"
+    },
+    {
+      "title": "Maximum XOR of Two Numbers in an Array",
+      "src": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Trie"
+    },
+    {
+      "title": "Factor Combinations",
+      "src": "https://leetcode.com/problems/factor-combinations",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Array"
+    },
+    {
+      "title": "Split a String Into the Max Number of Unique Substrings",
+      "src": "https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings",
+      "difficulty": "medium",
+      "type": [
+        "sean"
+      ],
+      "category": "Backtracking"
+    },
+    {
+      "title": "Count of Range Sum",
+      "src": "https://leetcode.com/problems/count-of-range-sum",
+      "difficulty": "hard",
+      "type": [
+        "sean"
+      ],
+      "category": "Binary Search"
+    },
+    {
+      "title": "Minimum Number of K Consecutive Bit Flips",
+      "src": "https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips",
+      "difficulty": "hard",
+      "type": [
+        "sean"
+      ],
+      "category": "Sliding Window"
+    },
+    {
+      "title": "Count Unique Characters of All Substrings of a Given String",
+      "src": "https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string",
+      "difficulty": "hard",
+      "type": [
+        "sean"
+      ],
+      "category": "Sliding Window"
+    },
+    {
+      "title": "Substring with Concatenation of All Words",
+      "src": "https://leetcode.com/problems/substring-with-concatenation-of-all-words",
+      "difficulty": "hard",
+      "type": [
+        "sean"
+      ],
+      "category": "Sliding Window"
+    },
+    {
+      "title": "Rearrange String k Distance Apart",
+      "src": "https://leetcode.com/problems/rearrange-string-k-distance-apart",
+      "difficulty": "hard",
+      "type": [
+        "sean"
+      ],
+      "category": "Greedy"
+    },
+    {
+      "title": "Course Schedule III",
+      "src": "https://leetcode.com/problems/course-schedule-iii",
+      "difficulty": "hard",
+      "type": [
+        "sean"
+      ],
+      "category": "Greedy"
+    },
+    {
+      "title": "Sliding Window Median",
+      "src": "https://leetcode.com/problems/sliding-window-median",
+      "difficulty": "hard",
+      "type": [
+        "sean"
+      ],
+      "category": "Heap"
+    },
+    {
+      "title": "Prefix and Suffix Search",
+      "src": "https://leetcode.com/problems/prefix-and-suffix-search",
+      "difficulty": "hard",
+      "type": [
+        "sean"
+      ],
+      "category": "Trie"
+    },
+    {
+      "title": "Design Search Autocomplete System",
+      "src": "https://leetcode.com/problems/design-search-autocomplete-system",
+      "difficulty": "hard",
+      "type": [
+        "sean"
+      ],
+      "category": "Trie"
+    },
+    {
+      "title": "Word Squares",
+      "src": "https://leetcode.com/problems/word-squares",
+      "difficulty": "hard",
+      "type": [
+        "sean"
+      ],
+      "category": "Trie"
+    },
+    {
+      "title": "Sort Items by Groups Respecting Dependencies",
+      "src": "https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies",
+      "difficulty": "hard",
+      "type": [
+        "sean"
+      ],
+      "category": "Tree"
     }
   ]
 }

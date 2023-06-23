@@ -15,8 +15,8 @@ export const navigationConfig: NavigationConfig = {
       href: "/neet",
     },
     {
-      title: "Sheet",
-      href: "/sheet",
+      title: "Grind",
+      href: "/grind",
     },
   ],
 }

@@ -7,10 +7,16 @@ import { QuestionLink } from "@/components/question-table/question-link"
 
 // convert data from json to jsx format
 export function convertToJsonx(data: Data) {
-  return {
-    title: <QuestionLink link={data.src} text={data.title} />,
-    difficulty: <DifficultyIndicator difficulty={data.difficulty} />,
-  }
+  return new Map([
+    [
+      "title",
+      <QuestionLink link={data.src} text={data.title} key={data.src} />,
+    ],
+    [
+      "difficulty",
+      <DifficultyIndicator difficulty={data.difficulty} key={data.src} />,
+    ],
+  ])
 }
 
 export type Jsonx = ReturnType<typeof convertToJsonx>

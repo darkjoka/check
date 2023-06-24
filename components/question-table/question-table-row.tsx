@@ -18,7 +18,7 @@ export function QuestionTableRow({
     <tr className="h-14 border-t border-t-border hover:bg-accent">
       {heading.map((head, key) => {
         return head.accessor !== "" ? (
-          <td key={key}>{data[head.accessor]}</td>
+          <td key={key}>{data.get(head.accessor)}</td>
         ) : null
       })}
       {children}

@@ -25,6 +25,8 @@ const ScrollAreaViewport = React.forwardRef<
   </ScrollAreaPrimitive.Viewport>
 ))
 
+ScrollAreaViewport.displayName = ScrollAreaPrimitive.Viewport.displayName
+
 type ScrollAreaScrollbarRef = React.ElementRef<
   typeof ScrollAreaPrimitive.Scrollbar
 >
@@ -46,5 +48,7 @@ const ScrollAreaScrollBar = React.forwardRef<
     <ScrollAreaPrimitive.Thumb className="relative flex-1 rounded-[10px] bg-foreground/40 before:absolute before:left-1/2 before:top-1/2 before:h-full before:min-h-[44px] before:w-full before:min-w-[44px] before:-translate-x-1/2 before:-translate-y-1/2 before:content-['']" />
   </ScrollAreaPrimitive.Scrollbar>
 ))
+
+ScrollAreaScrollBar.displayName = ScrollAreaPrimitive.Scrollbar.displayName
 
 export { ScrollAreaScrollBar, ScrollAreaViewport, ScrollAreaCorner, ScrollArea }

@@ -118,6 +118,8 @@ const AlertDialogTitle = React.forwardRef<
   />
 ))
 
+AlertDialogTitle.displayName = AlertDialogPrimitive.Title.displayName
+
 type AlertDialogDescriptionRef = React.ElementRef<
   typeof AlertDialogPrimitive.Description
 >
@@ -134,6 +136,8 @@ const AlertDialogDescription = React.forwardRef<
     className={cn("text-sm text-muted-foreground", className)}
   />
 ))
+AlertDialogDescription.displayName =
+  AlertDialogPrimitive.Description.displayName
 
 type AlertDialogActionRef = React.ElementRef<typeof AlertDialogPrimitive.Action>
 type AlertDialogActionNoRef = React.ComponentPropsWithoutRef<
@@ -149,6 +153,8 @@ const AlertDialogAction = React.forwardRef<
     className={cn(buttonVariants(), className)}
   />
 ))
+
+AlertDialogAction.displayName = AlertDialogPrimitive.Action.displayName
 
 type AlertDialogCancelRef = React.ElementRef<typeof AlertDialogPrimitive.Cancel>
 type AlertDialogCancelNoRef = React.ComponentPropsWithoutRef<
@@ -168,6 +174,8 @@ const AlertDialogCancel = React.forwardRef<
     )}
   />
 ))
+
+AlertDialogCancel.displayName = AlertDialogPrimitive.Cancel.displayName
 
 export {
   AlertDialog,

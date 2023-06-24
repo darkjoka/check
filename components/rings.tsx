@@ -9,7 +9,12 @@ interface Rings {
 
 export function Rings({ angle }: Rings) {
 	return (
-		<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+		<svg
+			width="150"
+			height="150"
+			xmlns="http://www.w3.org/2000/svg"
+			// style={{ backgroundColor: "green" }}
+		>
 			{levels.map((value, key) => {
 				return (
 					<path
@@ -17,7 +22,7 @@ export function Rings({ angle }: Rings) {
 						stroke="hsl(214.3 31.8% 91.4%)"
 						strokeWidth="10"
 						strokeLinecap="round"
-						d={describeArc(110, 110, value, 0, 359)}
+						d={describeArc(75, 75, value, 0, 359)}
 						key={key}
 					/>
 				)
@@ -29,7 +34,7 @@ export function Rings({ angle }: Rings) {
 						stroke={backdrops[key]}
 						strokeWidth="10"
 						strokeLinecap="round"
-						d={describeArc(110, 110, value, 0, angle[key])}
+						d={describeArc(75, 75, value, 0, angle[key])}
 						key={key}
 					/>
 				)

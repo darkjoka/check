@@ -17,7 +17,7 @@ const allDifficulties = new Map<DifficultyNoEmpty, number>([
 
 for (const problem of data.data) {
 	const key = problem.difficulty as DifficultyNoEmpty
-	const value = difficulties.get(key)!
+	const value = allDifficulties.get(key)!
 	allDifficulties.set(key, value + 1)
 }
 

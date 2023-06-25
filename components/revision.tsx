@@ -43,7 +43,7 @@ export function Revision() {
 					</QuestionTableBody>
 				</QuestionTable>
 			) : (
-				<div className="flex h-96 w-full items-center justify-center border border-border text-sm text-muted-foreground">
+				<div className="flex h-80 w-full items-center justify-center rounded border border-border text-sm text-muted-foreground">
 					Area will be populated as you solve questions over some days
 				</div>
 			)}

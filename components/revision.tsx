@@ -1,6 +1,7 @@
 "use client"
 
 import { head } from "@/config/table"
+import { useMounted } from "@/hooks/use-mounted"
 import { useRevision } from "@/hooks/use-revision"
 import {
 	convertToJsonx,
@@ -16,7 +17,8 @@ import { RatingAction } from "./rating-action"
 
 export function Revision() {
 	const revisions = useRevision()
-	return (
+	const mounted = useMounted()
+	return mounted ? (
 		<>
 			{revisions.length ? (
 				<QuestionTable>
@@ -46,5 +48,7 @@ export function Revision() {
 				</div>
 			)}
 		</>
+	) : (
+		<div className="h-80"></div>
 	)
 }

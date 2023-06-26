@@ -27,7 +27,7 @@ export function RatingAction({ data }: RatingActionProps) {
 
 	return (
 		<DropdownMenu>
-			<DropdownMenuTrigger>
+			<DropdownMenuTrigger aria-label="more">
 				<MoreHorizontal />
 			</DropdownMenuTrigger>
 			<DropdownMenuPortal>

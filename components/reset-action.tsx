@@ -1,6 +1,7 @@
 "use client"
 
 import { useMounted } from "@/hooks/use-mounted"
+import { useReset } from "@/hooks/use-reset"
 import {
   AlertDialog,
   AlertDialogAction,
@@ -16,6 +17,7 @@ import { Button } from "@/components/ui/button"
 
 export function ResetAction() {
   const mounted = useMounted()
+  const reset = useReset()
   return mounted ? (
     <AlertDialog>
       <AlertDialogTrigger asChild>
@@ -31,7 +33,7 @@ export function ResetAction() {
         </AlertDialogHeader>
         <AlertDialogFooter>
           <AlertDialogCancel>Cancel</AlertDialogCancel>
-          <AlertDialogAction>Continue</AlertDialogAction>
+          <AlertDialogAction onClick={reset}>Continue</AlertDialogAction>
         </AlertDialogFooter>
       </AlertDialogContent>
     </AlertDialog>

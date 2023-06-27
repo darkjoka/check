@@ -1,11 +1,11 @@
 import { SiteConfig } from "@/types"
 
 export const siteConfig: SiteConfig = {
-  name: "Checkmate",
-  description: "Something should be here",
-  url: "url goes here",
-  ogImage: "some image",
+  name: "Check",
+  description: "Personal leetcode problem tracking",
+  url: "https://checkleet.vercel.app",
+  ogImage: "https://checkleet.vercel.app/og.jpg",
   links: {
-    github: "github.com/here",
+    github: "github.com/darkjoka",
   },
 }

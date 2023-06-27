@@ -5,7 +5,7 @@ export function QuestionLink({ link, text }: { link: string; text: string }) {
   return (
     <Link
       href={link}
-      className="flex items-center space-x-2 text-sm font-medium font-normal"
+      className="flex items-center space-x-2 text-sm font-normal"
       target="_blank"
     >
       <span>{text}</span>

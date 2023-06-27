@@ -21,7 +21,7 @@ export function Previous({ count = 8 }: PreviousProps) {
 			<div
 				className={cn(
 					"flex  w-full flex-col rounded border border-border p-4",
-					!problems.length && "items-center justify-center"
+					!problems.length && "h-[31rem] items-center justify-center"
 				)}
 			>
 				{problems.length ? (

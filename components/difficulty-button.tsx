@@ -35,6 +35,7 @@ export function DifficultyButton({ data }: DifficultyButtonProps) {
         onClick={handleClick}
         onMouseOver={handleHover}
         onMouseLeave={handleUnHover}
+        aria-label="mark as easy"
       />
       <button
         className={cn(
@@ -46,6 +47,7 @@ export function DifficultyButton({ data }: DifficultyButtonProps) {
         onClick={handleClick}
         onMouseOver={handleHover}
         onMouseLeave={handleUnHover}
+        aria-label="mark as medium"
       />
       <button
         className={cn(
@@ -57,6 +59,7 @@ export function DifficultyButton({ data }: DifficultyButtonProps) {
         onClick={handleClick}
         onMouseOver={handleHover}
         onMouseLeave={handleUnHover}
+        aria-label="mark as hard"
       />
     </div>
   )

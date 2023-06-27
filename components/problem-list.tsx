@@ -39,27 +39,29 @@ export function ProblemList({ category }: { category: string }) {
           <AccordionContent>
             <ScrollArea className="h-fit">
               <ScrollAreaViewport className="max-h-96">
-                <QuestionTable>
-                  <QuestionTableHeading>
-                    <QuestionTableHead {...{ head }} />
-                  </QuestionTableHeading>
-                  <QuestionTableBody>
-                    {problems.get(value)?.map((data, key) => (
-                      <QuestionTableRow
-                        key={key}
-                        heading={head}
-                        data={convertToJsonx(data)}
-                      >
-                        <td>
-                          <DifficultyButton {...{ data }} />
-                        </td>
-                        <td>
-                          <RatingAction {...{ data }} />
-                        </td>
-                      </QuestionTableRow>
-                    ))}
-                  </QuestionTableBody>
-                </QuestionTable>
+                <div className="container">
+                  <QuestionTable>
+                    <QuestionTableHeading>
+                      <QuestionTableHead {...{ head }} />
+                    </QuestionTableHeading>
+                    <QuestionTableBody>
+                      {problems.get(value)?.map((data, key) => (
+                        <QuestionTableRow
+                          key={key}
+                          heading={head}
+                          data={convertToJsonx(data)}
+                        >
+                          <td>
+                            <DifficultyButton {...{ data }} />
+                          </td>
+                          <td>
+                            <RatingAction {...{ data }} />
+                          </td>
+                        </QuestionTableRow>
+                      ))}
+                    </QuestionTableBody>
+                  </QuestionTable>
+                </div>
               </ScrollAreaViewport>
               <ScrollAreaScrollBar />
             </ScrollArea>
